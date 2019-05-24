@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, white, grey);
+}
+
+.head {
+    padding: 30px 820px 0;
+}
+
+.head h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #757575;
+    display: inline;
+}
+
+.head img {
+    vertical-align: -20px;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -300px 0 0 -300px;
+    font-family: 'Arial';
+    background-color: #eceff1;
+    color: #646464;
+    padding: 10px 5px 15px;
+    width: 600px;
+    height: 500px;
+    border: 4px solid #8a8a8a;
+    border-radius: 4px;
+}
+
+sup {
+    font-size: 16px;
+}
+
+.line {
+    height: 36px;
+    padding: 5px 10px;
+}
+
+span {
+    float: right;
+}
+
+.left_span {
+    padding-top: 2px;
+    color: blue;
+}
+
+.left_span:hover {
+    cursor: pointer;
+    color: #ff0000;
+}
+
+.right_span {
+    font-size: 18px;
+    margin-left: 4px;
+}
+
+.input_wrap {
+    padding: 0 10px;
+}
+
+input {
+    font-family: 'Arial';
+    padding: 8px;
+    width: 100%;
+    height: 65px;
+    border: 2px solid #ccc;
+    font-size: 42px;
+    text-align: right;
+}
+
+input:focus {
+    outline: none;
+}
+
+.buttons {
+    padding: 15px 10px 10px;
+}
+
+.buttons table {
+    width: 560px;
+    height: 350px;
+    border-spacing: 3px;
+}
+
+table tr {
+    height: 66px;
+}
+
+table tr td {
+    width: 78px;
+    font-size: 24px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    user-select: none;
+    cursor: pointer;
+    background-color: #d5dde0f3;
+}
+
+table tr td:hover {
+    box-shadow: 3px 3px 3px rgb(226, 226, 226);
+}
+
+table tr td:active {
+    filter: brightness(90%);
+}
+
+.eq {
+    background-color: #ffbd5b;
+}
+
+.num {
+    background-color: #f7f4f2;
+    font-size: 28px;
+}

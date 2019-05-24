@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+  <div class="head">
+    <img src="https://img.icons8.com/bubbles/64/000000/calculator.png" />
+    <h1>Calculator</h1>
+  </div>
+  <div class="container">
+    <div class="line">
+      <span class="right_span"></span>
+      <span class="left_span"></span>
+    </div>
+
+    <div class="input_wrap">
+      <form action="script.js"></form>
+      <input type="text" autofocus="1" placeholder="0" value="" formmethod="post" />
+    </div>
+
+    <div class=" buttons">
+      <table>
+        <tr>
+          <td class="fn">sin</td>
+          <td class="fn">ln</td>
+          <td class="sign">&#177;</td>
+          <td class="par">()</td>
+          <td class="cl">C</td>
+          <td class="symbol" id="+">+</td>
+        </tr>
+        <tr>
+          <td class="fn">cos</td>
+          <td class="fn">&#8730;</td>
+          <td class="symbol num" id="7">7</td>
+          <td class="symbol num" id="8">8</td>
+          <td class="symbol num" id="9">9</td>
+          <td class="symbol" id="-">&#8722;</td>
+        </tr>
+        <tr>
+          <td class="fn">tan</td>
+          <td class="symbol" id="^">x<sup>y</sup></td>
+          <td class="symbol num" id="4">4</td>
+          <td class="symbol num" id="5">5</td>
+          <td class="symbol num" id="6">6</td>
+          <td class="symbol" id="*">&#215;</td>
+        </tr>
+        <tr>
+          <td class="symbol" id="π">π</td>
+          <td class="inv">1/x</td>
+          <td class="symbol num" id="1">1</td>
+          <td class="symbol num" id="2">2</td>
+          <td class="symbol num" id="3">3</td>
+          <td class="symbol" id="/">&#247;</td>
+        </tr>
+        <tr>
+          <td class="symbol" id="e">e</td>
+          <td class="symbol" id="!">x!</td>
+          <td class="symbol num" id="0" colspan="2">0</td>
+          <td class="symbol num" id=",">,</td>
+          <td class="eq">=</td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>
